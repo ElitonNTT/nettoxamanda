@@ -112,7 +112,7 @@ const RelationshipTimeline = () => {
                 <img
                   src={event.image}
                   alt={event.title}
-                  className="w-full h-fit object-cover bg-y-"
+                  className="w-full h-64 object-contain md:h-fit md:object-cover bg-y-"
                 />
                 <div className="p-4">
                   <div className="inline-block px-3 py-1 mb-2 text-xs font-medium bg-love-medium text-white rounded-full">
